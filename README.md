@@ -74,6 +74,8 @@ ___
   * 쎄로켈서방정 200mg
   * 자누메트정 50/500mg
   * 자누메트정 50/1000mg
+* test sample image
+  * 시중에서 구할 수 있는 일반의약품 두개(콘택골드캡슐 10mg/PTP, 보령알벤다졸정 400mg/PTP)를 구매해서 테스트 이미지로 사용
 ___
 ## Model
 * EfficientNetB0
@@ -88,6 +90,8 @@ ___
 3. Run ```python test_pill_model.py``` to test the model
 ___
 ## Results
+학습시킨 콘택골드캡슐 10mg/PTP 은 잘 인식하여 옳게 판별했지만 알벤다졸정은 '대웅' 것이 아닌 '보령' 알벤다졸정으로 테스트 해보았기에 인식 실패 (대웅알벤다졸정과 보령알벤다졸정은 외관이 다릅니다.)
+
 ![image](https://github.com/user-attachments/assets/acc04ec6-c626-43ab-8e78-2a91393d551a)
 
 ![image](https://github.com/user-attachments/assets/1db9d60b-1828-4f46-8444-d6ac22b2edcd)
