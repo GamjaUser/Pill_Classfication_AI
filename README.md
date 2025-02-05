@@ -75,6 +75,13 @@ ___
   * 자누메트정 50/500mg
   * 자누메트정 50/1000mg
 ___
+## Model
+* EfficientNetB0
+  * 구글이 2019년에 발표한 EfficientNet 모델군 중 가장 작은 버전으로, 이미지 분류(Classification) 및 특징 추출(Feature Extraction)에 최적화된 CNN 모델
+  * 기존 ResNet, Inception보다 더 적은 연산량으로 더 높은 성능을 냄
+  * 복잡한 네트워크 구조 대신 단순한 Scaling 사용
+  * EfficientNetB0 ~ B7까지 존재 (EfficientNetB0 이 가장 작은 모델)
+___
 ## Steps
 1. download data
 2. Run ```python train_pill_model.py``` to train the model
